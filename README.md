@@ -7,6 +7,9 @@ In this work, we present the application framework misconfiguration vulnerabilit
 
 > What are the common security anti-patterns/insecure defaults present in enterprise Spring security applications?
 
+This repository contains a summary of the results. For more details, we refer the reader to our conference paper published at IEEE SecDev 2020 titled ["Coding Practices and Recommendations of Spring
+Security for Enterprise Applications"](https://pages.cs.wisc.edu/~mazharul/files/IslamCoding.pdf)
+
 ## Methodology
 <div align="center">
     <img src="figures/methodology.png" alt="Methodology" width="300">
@@ -143,5 +146,24 @@ State-params stops against CSRF attacks
 
 
 
+## Citation
+If you use findings of this study in your research, please cite the following publication.
+```
+@INPROCEEDINGS {Spring-security,
+author = {M. Islam and S. Rahaman and N. Meng and B. Hassanshahi and P. Krishnan and D. Yao},
+booktitle = {2020 IEEE Secure Development (SecDev)},
+title = {Coding Practices and Recommendations of Spring Security for Enterprise Applications},
+year = {2020},
+volume = {},
+issn = {},
+pages = {49-57},
+keywords = {security;springs;authentication;uniform resource locators;password;encoding;authorization},
+doi = {10.1109/SecDev45635.2020.00024},
+url = {https://doi.ieeecomputersociety.org/10.1109/SecDev45635.2020.00024},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month = {sep}
+}
 
+```
 
